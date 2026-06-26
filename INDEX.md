@@ -104,6 +104,15 @@
 
 ---
 
+## 语言版本 / Language Versions
+
+| 语言 | 文件 |
+|------|------|
+| 🇨🇳 中文 | [`README.zh.md`](README.zh.md) |
+| 🇬🇧 English | [`README.md`](README.md) |
+
+---
+
 ## 统计 / Statistics
 
 | 指标 | 数值 |
