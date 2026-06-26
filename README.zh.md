@@ -15,6 +15,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![ARD Spec v0.9](https://img.shields.io/badge/ARD-v0.9%20(Draft)-purple)](https://github.com/ards-project/ard-spec)
+[![Star History](https://img.shields.io/badge/Star-History-gold?logo=github)](https://star-history.com/#huangxn29/ard-catalogs&Date)
 [![关注 @huangxn29](https://img.shields.io/badge/X-@huangxn29-000000?logo=x)](https://x.com/huangxn29)
 
 [English version →](README.md)
@@ -230,6 +231,14 @@ hf discover navigate suganthan.com "find an MCP server for blog search"
 - [DataRobot 官方博客](https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/) — DataRobot ARD 集成博文
 - [Suganthan 博客](https://suganthan.com/blog/agentic-resource-discovery/) — 个人开发者 ARD 实现体验
 - [Joost 博客](https://joost.blog/okf-ard/) — Joost de Valk 的 ARD 与 OKF 集成介绍
+
+---
+
+## ⭐ 支持
+
+如果你觉得这个项目有用，请在 GitHub 上点一个 Star —— 这能帮助更多人发现 ARD 生态！
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huangxn29/ard-catalogs&type=Date)](https://star-history.com/#huangxn29/ard-catalogs&Date)
 
 ---
 

@@ -15,6 +15,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![ARD Spec v0.9](https://img.shields.io/badge/ARD-v0.9%20(Draft)-purple)](https://github.com/ards-project/ard-spec)
+[![Star History](https://img.shields.io/badge/Star-History-gold?logo=github)](https://star-history.com/#huangxn29/ard-catalogs&Date)
 [![Follow @huangxn29](https://img.shields.io/badge/X-@huangxn29-000000?logo=x)](https://x.com/huangxn29)
 
 [中文版 →](README.zh.md)
@@ -230,6 +231,14 @@ Contributions welcome! If you find a new public `ai-catalog.json`, please:
 - [DataRobot Integration Blog](https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/) — DataRobot ARD blog
 - [Suganthan's ARD Blog](https://suganthan.com/blog/agentic-resource-discovery/) — Individual developer ARD experience
 - [Joost's OKF + ARD Blog](https://joost.blog/okf-ard/) — Joost de Valk on combining OKF and ARD
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please consider giving it a star on GitHub — it helps others discover the ARD ecosystem!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huangxn29/ard-catalogs&type=Date)](https://star-history.com/#huangxn29/ard-catalogs&Date)
 
 ---
 
