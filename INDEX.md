@@ -113,6 +113,13 @@
 
 ---
 
+## 关注我们 / Follow Us
+
+在 X/Twitter 上关注 [@huangxn29](https://x.com/huangxn29) 获取最新动态。
+Follow [@huangxn29](https://x.com/huangxn29) on X/Twitter for the latest updates.
+
+---
+
 ## 统计 / Statistics
 
 | 指标 | 数值 |

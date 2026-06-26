@@ -15,8 +15,11 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![ARD Spec v0.9](https://img.shields.io/badge/ARD-v0.9%20(Draft)-purple)](https://github.com/ards-project/ard-spec)
+[![Follow @huangxn29](https://img.shields.io/badge/X-@huangxn29-000000?logo=x)](https://x.com/huangxn29)
 
 [中文版 →](README.zh.md)
+
+> **Follow on X ([@huangxn29](https://x.com/huangxn29))** for updates on new catalog additions, ARD ecosystem developments, and more.
 
 ---
 

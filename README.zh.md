@@ -15,8 +15,11 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![ARD Spec v0.9](https://img.shields.io/badge/ARD-v0.9%20(Draft)-purple)](https://github.com/ards-project/ard-spec)
+[![关注 @huangxn29](https://img.shields.io/badge/X-@huangxn29-000000?logo=x)](https://x.com/huangxn29)
 
 [English version →](README.md)
+
+> **在 X/Twitter 上关注 [@huangxn29](https://x.com/huangxn29)**，获取最新的 Catalog 收录动态、ARD 生态进展等更多信息。
 
 ---
 
