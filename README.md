@@ -45,7 +45,8 @@ ard-catalogs/
 ├── catalogs/               # Collected ai-catalog.json files (organized by publisher)
 │   ├── huggingface/        # Hugging Face — huggingface.co
 │   ├── datarobot/          # DataRobot — datarobot.com
-│   └── suganthan/          # Suganthan (individual developer) — suganthan.com
+│   ├── suganthan/          # Suganthan (individual developer) — suganthan.com
+│   └── joost.blog/         # Joost de Valk (Yoast founder) — joost.blog
 ├── spec/                   # ARD protocol specification documents
 │   └── schemas/            # JSON Schema definitions
 ├── examples/               # Example catalog files from the ARD spec
@@ -62,6 +63,7 @@ ard-catalogs/
 | 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-26 |
 | 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-26 |
 | 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-26 |
+| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-26 |
 
 > **Note**: ARD v0.9 draft was published on June 17, 2026. Currently only a few pioneering organizations and developers have published public ai-catalog.json files. This repository will be continuously updated as the ecosystem matures.
 
@@ -97,6 +99,16 @@ ard-catalogs/
 - Uses `representativeQueries`, `capabilities`, `version` and other advanced fields
 - Uses `did:web` as the host identifier
 - **Reference**: [Suganthan's blog](https://suganthan.com/blog/agentic-resource-discovery/)
+
+### 4. Joost de Valk (joost.blog)
+
+- **URL**: `https://joost.blog/.well-known/ai-catalog.json`
+- **Type**: Mixed (MCP Server + A2A Agent)
+- **Description**: Joost de Valk — founder of Yoast — publishes an ARD catalog with 2 entries:
+  - MCP Server: search blog content about SEO, WordPress, AI, and the open web
+  - A2A Agent: ask natural-language questions grounded in his published posts and talks
+- Uses `did:web` identity with a `trustManifest` containing a JWS signature
+- **Reference**: [Joost's blog](https://joost.blog/okf-ard/)
 
 ---
 
@@ -143,6 +155,7 @@ Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json`
 | ✅ Hugging Face | huggingface.co | **Published** | Points to Discover Registry |
 | ✅ DataRobot | datarobot.com | **Published** | 10 Agent Skills |
 | ✅ Suganthan | suganthan.com | **Published** | Individual developer, 3 entries |
+| ✅ Joost de Valk | joost.blog | **Published** | Individual developer, 2 entries (MCP + A2A) |
 | ⬜ Google | google.com | 404 | Not published |
 | ⬜ Google Cloud | cloud.google.com | 404 | Not published |
 | ⬜ Microsoft | microsoft.com | 404 | Not published |
@@ -157,7 +170,7 @@ Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json`
 | ⬜ Anthropic | anthropic.com | No response | Not a founding member |
 | ⬜ OpenAI | openai.com | No response | Not a founding member |
 
-> As of now, **only Hugging Face, DataRobot, and Suganthan (individual developer)** have published public `ai-catalog.json` files. The ARD ecosystem is still in its early stages.
+> As of now, **only Hugging Face, DataRobot, Suganthan, and Joost de Valk** have published public `ai-catalog.json` files. The ARD ecosystem is still in its early stages.
 
 ---
 
@@ -214,6 +227,7 @@ Contributions welcome! If you find a new public `ai-catalog.json`, please:
 - [Hugging Face Launch Blog](https://huggingface.co/blog/agentic-resource-discovery-launch) — ARD announcement post
 - [DataRobot Integration Blog](https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/) — DataRobot ARD blog
 - [Suganthan's ARD Blog](https://suganthan.com/blog/agentic-resource-discovery/) — Individual developer ARD experience
+- [Joost's OKF + ARD Blog](https://joost.blog/okf-ard/) — Joost de Valk on combining OKF and ARD
 
 ---
 

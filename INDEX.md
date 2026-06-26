@@ -12,6 +12,7 @@
 | 1 | Hugging Face | `catalogs/huggingface/ai-catalog.json` | 1 (registry) | `ai-registry` | `https://huggingface.co/.well-known/ai-catalog.json` |
 | 2 | DataRobot | `catalogs/datarobot/ai-catalog.json` | 10 (skills) | `ai-skill` | `https://datarobot.com/.well-known/ai-catalog.json` |
 | 3 | Suganthan Mohanadasan | `catalogs/suganthan/ai-catalog.json` | 3 (mixed) | `a2a-agent`, `mcp-server`, `openapi` | `https://suganthan.com/.well-known/ai-catalog.json` |
+| 4 | Joost de Valk (joost.blog) | `catalogs/joost.blog/ai-catalog.json` | 2 (mixed) | `mcp-server`, `a2a-agent` | `https://joost.blog/.well-known/ai-catalog.json` |
 
 ---
 
@@ -43,12 +44,14 @@
 | 发布者 | 标识符 | 描述 |
 |--------|--------|------|
 | Suganthan | `urn:ai:suganthan.com:agent:blog-agent` | Blog search and retrieval agent |
+| Joost de Valk | `urn:ai:joost.blog:a2a:ask-joost` | Ask questions about SEO, WordPress, AI, and the open web via Joost de Valk's content |
 
 ### MCP Server (application/mcp-server-card+json)
 
 | 发布者 | 标识符 | 描述 |
 |--------|--------|------|
 | Suganthan | `urn:ai:suganthan.com:server:blog-mcp` | Blog MCP server with search tools |
+| Joost de Valk | `urn:ai:joost.blog:mcp:joost-blog` | MCP server for searching Joost de Valk's blog content |
 
 ### OpenAPI (application/vnd.oai.openapi+json)
 
@@ -93,6 +96,17 @@
 - **备注**: 完整使用 `representativeQueries`、`capabilities`、`version` 等高级特性
 - **相关博客**: https://suganthan.com/blog/agentic-resource-discovery/
 
+### Joost de Valk (joost.blog)
+
+- **域名**: `joost.blog`
+- **主页**: https://joost.blog
+- **Catalog URL**: https://joost.blog/.well-known/ai-catalog.json
+- **收录文件**: `catalogs/joost.blog/ai-catalog.json`
+- **收录日期**: 2026-06-26
+- **验证状态**: ✅ 可通过 HTTP 访问
+- **备注**: Joost de Valk (Yoast 创始人) 发布了一个 Ard catalog，包含一个 MCP server 和一个 A2A agent，覆盖 SEO、WordPress、AI 和开放网络等主题。使用 did:web identity 和 JWS 签名的 trustManifest。
+- **相关博客**: https://joost.blog/okf-ard/
+
 ---
 
 ## 示例文件 / Examples
@@ -124,11 +138,11 @@ Follow [@huangxn29](https://x.com/huangxn29) on X/Twitter for the latest updates
 
 | 指标 | 数值 |
 |------|------|
-| 已收录发布者 | 3 |
-| 总条目数 | 14 |
+| 已收录发布者 | 4 |
+| 总条目数 | 16 |
 | Registry 条目 | 1 |
 | Skill 条目 | 10 |
-| A2A Agent 条目 | 1 |
-| MCP Server 条目 | 1 |
+| A2A Agent 条目 | 2 |
+| MCP Server 条目 | 2 |
 | OpenAPI 条目 | 1 |
-| 已验证可访问 | 3/3 (100%) |
+| 已验证可访问 | 4/4 (100%) |

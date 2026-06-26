@@ -1,0 +1,20 @@
+{
+  "publisher": "Joost de Valk (joost.blog)",
+  "domain": "joost.blog",
+  "homepage": "https://joost.blog",
+  "sourceUrl": "https://joost.blog/.well-known/ai-catalog.json",
+  "dateCollected": "2026-06-26",
+  "verificationStatus": "verified",
+  "httpStatus": 200,
+  "entryCount": 2,
+  "resourceTypes": [
+    "application/mcp-server-card+json",
+    "application/a2a-agent-card+json"
+  ],
+  "notes": "Joost de Valk (Yoast founder) publishes an ARD catalog with two entries: an MCP server and an A2A agent over his blog content on SEO, WordPress, AI, and the open web. Uses did:web identity with trustManifest and JWS signature.",
+  "references": [
+    "https://joost.blog/okf-ard/",
+    "https://joost.blog/.well-known/mcp/server-card.json",
+    "https://joost.blog/.well-known/agent-card.json"
+  ]
+}

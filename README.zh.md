@@ -45,7 +45,8 @@ ard-catalogs/
 ├── catalogs/               # 收集的 ai-catalog.json 文件（按发布者组织）
 │   ├── huggingface/        # Hugging Face — huggingface.co
 │   ├── datarobot/          # DataRobot — datarobot.com
-│   └── suganthan/          # Suganthan (个人开发者) — suganthan.com
+│   ├── suganthan/          # Suganthan (个人开发者) — suganthan.com
+│   └── joost.blog/         # Joost de Valk (Yoast 创始人) — joost.blog
 ├── spec/                   # ARD 协议规范文档
 │   └── schemas/            # JSON Schema 定义
 ├── examples/               # 示例 catalog 文件
@@ -62,6 +63,7 @@ ard-catalogs/
 | 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-26 |
 | 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-26 |
 | 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-26 |
+| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-26 |
 
 > **注意**: ARD 协议于 2026 年 6 月 17 日刚发布 v0.9 草案，目前只有少数先锋组织和开发者发布了公开的 ai-catalog.json。随着生态成熟，本仓库将持续更新收录。
 
@@ -97,6 +99,16 @@ ard-catalogs/
 - 使用了 `representativeQueries`、`capabilities`、`version` 等高级字段
 - 使用了 `did:web` 作为 host 标识符
 - **参考**: [Suganthan 博客](https://suganthan.com/blog/agentic-resource-discovery/)
+
+### 4. Joost de Valk (joost.blog)
+
+- **URL**: `https://joost.blog/.well-known/ai-catalog.json`
+- **类型**: 混合（MCP Server + A2A Agent）
+- **描述**: Joost de Valk — Yoast 的创始人 — 发布了一个包含 2 个条目的 ARD catalog：
+  - MCP Server：搜索关于 SEO、WordPress、AI 和开放网络的博客内容
+  - A2A Agent：基于他公开发布的文章和演讲内容回答自然语言问题
+- 使用了 `did:web` 身份标识和包含 JWS 签名的 `trustManifest`
+- **参考**: [Joost 博客](https://joost.blog/okf-ard/)
 
 ---
 
@@ -143,6 +155,7 @@ ard-catalogs/
 | ✅ Hugging Face | huggingface.co | **已发布** | 指向 Discover 注册中心 |
 | ✅ DataRobot | datarobot.com | **已发布** | 10 个 Agent Skills |
 | ✅ Suganthan | suganthan.com | **已发布** | 个人开发者，3 个条目 |
+| ✅ Joost de Valk | joost.blog | **已发布** | 个人开发者，2 个条目（MCP + A2A） |
 | ⬜ Google | google.com | 404 | 未发布 |
 | ⬜ Google Cloud | cloud.google.com | 404 | 未发布 |
 | ⬜ Microsoft | microsoft.com | 404 | 未发布 |
@@ -157,7 +170,7 @@ ard-catalogs/
 | ⬜ Anthropic | anthropic.com | 无响应 | 非创始成员 |
 | ⬜ OpenAI | openai.com | 无响应 | 非创始成员 |
 
-> 截止目前，**仅 Hugging Face、DataRobot 和 Suganthan（个人开发者）** 已发布公开的 `ai-catalog.json`。ARD 生态尚处于早期阶段。
+> 截止目前，**仅 Hugging Face、DataRobot、Suganthan 和 Joost de Valk** 已发布公开的 `ai-catalog.json`。ARD 生态尚处于早期阶段。
 
 ---
 
@@ -214,6 +227,7 @@ hf discover navigate suganthan.com "find an MCP server for blog search"
 - [Hugging Face 官方博客](https://huggingface.co/blog/agentic-resource-discovery-launch) — ARD 发布博文
 - [DataRobot 官方博客](https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/) — DataRobot ARD 集成博文
 - [Suganthan 博客](https://suganthan.com/blog/agentic-resource-discovery/) — 个人开发者 ARD 实现体验
+- [Joost 博客](https://joost.blog/okf-ard/) — Joost de Valk 的 ARD 与 OKF 集成介绍
 
 ---
 
