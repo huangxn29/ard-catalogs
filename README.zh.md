@@ -50,6 +50,8 @@ ard-catalogs/
 ├── spec/                   # ARD 协议规范文档
 │   └── schemas/            # JSON Schema 定义
 ├── examples/               # 示例 catalog 文件
+├── reports/                # ARD 深度研究报告
+│   └── ard-deep-research-report.md
 ├── INDEX.md                # 全局索引
 └── README.md               # 本文件
 ```

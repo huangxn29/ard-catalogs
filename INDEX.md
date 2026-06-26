@@ -118,6 +118,12 @@
 
 ---
 
+## 研究报告 / Research Reports
+
+| 报告 | 文件 | 日期 |
+|------|------|------|
+| 📊 ARD 深度调研报告 | [`reports/ard-deep-research-report.md`](reports/ard-deep-research-report.md) | 2026-06-26 |
+
 ## 语言版本 / Language Versions
 
 | 语言 | 文件 |
