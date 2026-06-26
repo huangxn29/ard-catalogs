@@ -1,0 +1,19 @@
+{
+  "publisher": "Suganthan Mohanadasan",
+  "domain": "suganthan.com",
+  "homepage": "https://suganthan.com",
+  "sourceUrl": "https://suganthan.com/.well-known/ai-catalog.json",
+  "dateCollected": "2026-06-26",
+  "verificationStatus": "verified",
+  "httpStatus": 200,
+  "entryCount": 3,
+  "resourceTypes": [
+    "application/a2a-agent-card+json",
+    "application/mcp-server-card+json",
+    "application/vnd.oai.openapi+json"
+  ],
+  "notes": "One of the first individual developers to deploy a full ARD implementation. Demonstrates all key ARD features: did:web host identifier, representativeQueries, capabilities, version, updatedAt. Includes three distinct resource types (A2A agent, MCP server, OpenAPI).",
+  "references": [
+    "https://suganthan.com/blog/agentic-resource-discovery/"
+  ]
+}

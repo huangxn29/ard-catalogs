@@ -1,0 +1,86 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Suganthan Mohanadasan",
+    "identifier": "did:web:suganthan.com",
+    "documentationUrl": "https://suganthan.com/mcp/",
+    "logoUrl": "https://suganthan.com/wp-content/uploads/2022/12/suganthan-mohanadasan.jpeg"
+  },
+  "entries": [
+    {
+      "identifier": "urn:ai:suganthan.com:agent:blog-agent",
+      "displayName": "Suganthan Blog Agent",
+      "type": "application/a2a-agent-card+json",
+      "url": "https://suganthan.com/.well-known/agent.json",
+      "description": "A2A agent card for searching, retrieving, and reading Suganthan Mohanadasan's blog posts and notes on SEO, AI SEO, and the agentic web. Backed by the WebMCP endpoint at /mcp/.",
+      "capabilities": [
+        "search_posts",
+        "list_posts",
+        "get_post",
+        "get_site_info"
+      ],
+      "tags": [
+        "seo",
+        "ai-seo",
+        "blog",
+        "content",
+        "mcp",
+        "agentic-web"
+      ],
+      "representativeQueries": [
+        "find an agent that can search an SEO blog",
+        "read Suganthan Mohanadasan's posts about AI SEO and schema markup",
+        "what has this site published about the agentic web"
+      ],
+      "version": "0.1.0",
+      "updatedAt": "2026-06-19T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:suganthan.com:server:blog-mcp",
+      "displayName": "Suganthan's MCP Server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://suganthan.com/.well-known/mcp/server-card.json",
+      "description": "MCP server exposing tools to search blog posts by keyword, list all posts, fetch a post by slug, and read site and author information. Served over WebMCP at /mcp/.",
+      "capabilities": [
+        "search_posts",
+        "get_post",
+        "list_posts",
+        "get_site_info"
+      ],
+      "tags": [
+        "seo",
+        "ai-seo",
+        "mcp",
+        "blog",
+        "search",
+        "technical-seo"
+      ],
+      "representativeQueries": [
+        "find an MCP server that can search a blog about SEO",
+        "get the full text of an SEO blog post by slug",
+        "search this site for posts about MCP and structured data"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-06-19T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:suganthan.com:api:blog-openapi",
+      "displayName": "suganthan.com Blog API (OpenAPI 3.0)",
+      "type": "application/vnd.oai.openapi+json",
+      "url": "https://suganthan.com/api/openapi.json",
+      "description": "OpenAPI 3.0 description of the public REST API over the blog content, the same surface advertised in the RFC 9727 api-catalog at /.well-known/api-catalog.",
+      "tags": [
+        "api",
+        "openapi",
+        "rest",
+        "blog"
+      ],
+      "representativeQueries": [
+        "find a REST API for reading SEO blog content",
+        "what OpenAPI endpoints does this site expose"
+      ],
+      "version": "3.0.0",
+      "updatedAt": "2026-06-19T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "DataRobot Agent Skills"
+  },
+  "entries": [
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:model-training",
+      "displayName": "datarobot-model-training",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-model-training/SKILL.md",
+      "description": "Train models, manage projects, and run AutoML experiments on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:model-deployment",
+      "displayName": "datarobot-model-deployment",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-model-deployment/SKILL.md",
+      "description": "Deploy models, manage deployments, and configure prediction environments on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:predictions",
+      "displayName": "datarobot-predictions",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-predictions/SKILL.md",
+      "description": "Make predictions, batch score, and generate prediction datasets on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:feature-engineering",
+      "displayName": "datarobot-feature-engineering",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-feature-engineering/SKILL.md",
+      "description": "Engineer features, run feature discovery, and analyze feature importance on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:model-monitoring",
+      "displayName": "datarobot-model-monitoring",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-model-monitoring/SKILL.md",
+      "description": "Monitor model performance, track data drift, and manage model health on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:model-explainability",
+      "displayName": "datarobot-model-explainability",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-model-explainability/SKILL.md",
+      "description": "Explain model predictions, compute SHAP values, and run model diagnostics on DataRobot."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:data-preparation",
+      "displayName": "datarobot-data-preparation",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-data-preparation/SKILL.md",
+      "description": "Upload datasets, manage data assets, and validate data for DataRobot workflows."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:app-framework-cicd",
+      "displayName": "datarobot-app-framework-cicd",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-app-framework-cicd/SKILL.md",
+      "description": "Set up CI/CD pipelines for DataRobot application templates with GitLab and GitHub Actions."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:external-agent-monitoring",
+      "displayName": "datarobot-external-agent-monitoring",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-external-agent-monitoring/SKILL.md",
+      "description": "Instrument external agents with OpenTelemetry for DataRobot observability. Supports LangGraph, CrewAI, LlamaIndex, PydanticAI, and others."
+    },
+    {
+      "identifier": "urn:ai:github.com:datarobot-oss:datarobot-agent-skills:agent-assist",
+      "displayName": "datarobot-agent-assist",
+      "type": "application/ai-skill",
+      "url": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/skills/datarobot-agent-assist/SKILL.md",
+      "description": "Build and deploy AI agents on DataRobot. Supports LangGraph, CrewAI, LlamaIndex, and base agents with MCP server and React frontend bundling."
+    }
+  ]
+}

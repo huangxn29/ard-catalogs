@@ -1,0 +1,33 @@
+{
+  "specVersion": "1.0",
+  "host": { "displayName": "Alice's AI Tools" },
+  "entries": [
+    {
+      "identifier": "urn:air:hf.co:alice-dev:weather-agent",
+      "displayName": "Weather Agent",
+      "type": "application/mcp-server-card+json",
+      "data": {
+        "name": "Weather Agent",
+        "description": "Simple weather lookup using open data",
+        "tools": [
+          {
+            "name": "get_weather",
+            "description": "Get current weather for a city",
+            "inputSchema": {
+              "type": "object",
+              "properties": { "city": { "type": "string" } },
+              "required": ["city"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "urn:air:github.com:alice-dev:pptx-creator",
+      "displayName": "pptx-creator",
+      "type": "application/ai-skill",
+      "url": "https://github.com/alice-dev/pptx-creator",
+      "description": "Create professional PowerPoint presentations following brand guidelines."
+    }
+  ]
+}

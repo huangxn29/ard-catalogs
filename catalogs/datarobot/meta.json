@@ -1,0 +1,16 @@
+{
+  "publisher": "DataRobot",
+  "domain": "datarobot.com",
+  "homepage": "https://www.datarobot.com",
+  "sourceUrl": "https://datarobot.com/.well-known/ai-catalog.json",
+  "dateCollected": "2026-06-26",
+  "verificationStatus": "verified",
+  "httpStatus": 200,
+  "entryCount": 10,
+  "resourceTypes": ["application/ai-skill"],
+  "notes": "DataRobot published 10 Agent Skills covering the full MLOps lifecycle: model training, deployment, prediction, feature engineering, monitoring, explainability, data preparation, CI/CD, external agent monitoring, and agent assist.",
+  "references": [
+    "https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/",
+    "https://github.com/datarobot-oss/datarobot-agent-skills"
+  ]
+}

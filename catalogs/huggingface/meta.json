@@ -1,0 +1,16 @@
+{
+  "publisher": "Hugging Face",
+  "domain": "huggingface.co",
+  "homepage": "https://huggingface.co",
+  "sourceUrl": "https://huggingface.co/.well-known/ai-catalog.json",
+  "dateCollected": "2026-06-26",
+  "verificationStatus": "verified",
+  "httpStatus": 200,
+  "entryCount": 1,
+  "resourceTypes": ["application/ai-registry+json"],
+  "notes": "Hugging Face's ARD entry points to their Discover Registry. Actual resources (Skills, MCP-enabled Spaces) are indexed dynamically and queried via the registry endpoint.",
+  "references": [
+    "https://github.com/huggingface/hf-discover",
+    "https://huggingface.co/blog/agentic-resource-discovery-launch"
+  ]
+}
