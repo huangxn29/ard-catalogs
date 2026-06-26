@@ -204,8 +204,9 @@ hf discover navigate suganthan.com "find an MCP server for blog search"
 
 ## 🤝 贡献指南
 
-欢迎贡献！如果你发现了新的公开 `ai-catalog.json`，请：
+欢迎贡献！详细指南请见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+如果你发现了新的公开 `ai-catalog.json`，请：
 1. Fork 本仓库
 2. 在 `catalogs/<publisher-name>/` 目录下添加新的 catalog 文件
 3. 更新 `INDEX.md` 中的索引

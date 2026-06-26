@@ -204,15 +204,15 @@ hf discover navigate suganthan.com "find an MCP server for blog search"
 
 ## 🤝 Contributing
 
-Contributions welcome! If you find a new public `ai-catalog.json`, please:
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
+If you find a new public `ai-catalog.json`, please:
 1. Fork this repository
 2. Add the catalog file under `catalogs/<publisher-name>/`
 3. Update `INDEX.md`
 4. Submit a Pull Request
 
 ### Guidelines
-
 - Only accept **publicly accessible** `ai-catalog.json` files (no authentication required)
 - Preserve the **original JSON format** without modification
 - Include a `meta.json` file recording the source URL, collection date, and notes

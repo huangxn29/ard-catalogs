@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ARD Spec
+    url: https://github.com/ards-project/ard-spec
+    about: ARD protocol specification and questions
+  - name: X / Twitter
+    url: https://x.com/huangxn29
+    about: Follow @huangxn29 for ARD ecosystem updates
