@@ -47,6 +47,8 @@ ard-catalogs/
 │   ├── datarobot/          # DataRobot — datarobot.com
 │   ├── suganthan/          # Suganthan (个人开发者) — suganthan.com
 │   └── joost.blog/         # Joost de Valk (Yoast 创始人) — joost.blog
+├── docs/                   # 调研报告与文档
+│   └── ard-deep-research-report.md  # ARD 协议深度调研报告
 ├── spec/                   # ARD 协议规范文档
 │   └── schemas/            # JSON Schema 定义
 ├── examples/               # 示例 catalog 文件
