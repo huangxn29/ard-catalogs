@@ -63,10 +63,10 @@ ard-catalogs/
 
 | # | 发布者 | 域名 | Catalog URL | 资源类型 | 收录日期 |
 |---|--------|------|-------------|----------|---------|
-| 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-26 |
-| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-26 |
-| 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-26 |
-| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-26 |
+| 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-29 |
+| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-29 |
+| 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-29 |
+| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-29 |
 
 > **注意**: ARD 协议于 2026 年 6 月 17 日刚发布 v0.9 草案，目前只有少数先锋组织和开发者发布了公开的 ai-catalog.json。随着生态成熟，本仓库将持续更新收录。
 
@@ -151,7 +151,7 @@ ard-catalogs/
 
 ## 🔍 扫描状态
 
-以下列出了 ARD 创始公司/组织的 `/.well-known/ai-catalog.json` 可访问性扫描结果（2026-06-26）：
+以下列出了 ARD 创始公司/组织的 `/.well-known/ai-catalog.json` 可访问性扫描结果（2026-06-29）：
 
 | 组织 | 域名 | 状态 | 备注 |
 |------|------|------|------|
@@ -169,7 +169,7 @@ ard-catalogs/
 | ⬜ NVIDIA | nvidia.com | 403 | 未公开 |
 | ⬜ GoDaddy | godaddy.com | 403 | 未公开 |
 | ⬜ ServiceNow | servicenow.com | 403 | 未公开 |
-| ⬜ Cisco | cisco.com | 待扫描 | 未扫描 |
+| ⬜ Cisco | cisco.com | 404 | 未发布 |
 | ⬜ Anthropic | anthropic.com | 无响应 | 非创始成员 |
 | ⬜ OpenAI | openai.com | 无响应 | 非创始成员 |
 

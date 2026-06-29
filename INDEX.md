@@ -1,7 +1,7 @@
 # 📋 ARD Catalog 全局索引 / Global Index
 
 > 本索引列出当前仓库收录的所有公开 `ai-catalog.json` 文件。
-> Last updated: 2026-06-26
+> Last updated: 2026-06-29
 
 ---
 
@@ -69,7 +69,7 @@
 - **主页**: https://huggingface.co
 - **Catalog URL**: https://huggingface.co/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/huggingface/ai-catalog.json`
-- **收录日期**: 2026-06-26
+- **收录日期**: 2026-06-29
 - **验证状态**: ✅ 可通过 HTTP 访问
 - **备注**: 指向动态搜索注册中心，实际资源需通过 Discover Registry 查询
 - **相关工具**: https://github.com/huggingface/hf-discover
@@ -80,7 +80,7 @@
 - **主页**: https://www.datarobot.com
 - **Catalog URL**: https://datarobot.com/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/datarobot/ai-catalog.json`
-- **收录日期**: 2026-06-26
+- **收录日期**: 2026-06-29
 - **验证状态**: ✅ 可通过 HTTP 访问
 - **备注**: 10 个 Agent Skills，覆盖 MLOps 全生命周期
 - **相关博客**: https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/
@@ -91,7 +91,7 @@
 - **主页**: https://suganthan.com
 - **Catalog URL**: https://suganthan.com/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/suganthan/ai-catalog.json`
-- **收录日期**: 2026-06-26
+- **收录日期**: 2026-06-29
 - **验证状态**: ✅ 可通过 HTTP 访问
 - **备注**: 完整使用 `representativeQueries`、`capabilities`、`version` 等高级特性
 - **相关博客**: https://suganthan.com/blog/agentic-resource-discovery/
@@ -102,7 +102,7 @@
 - **主页**: https://joost.blog
 - **Catalog URL**: https://joost.blog/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/joost.blog/ai-catalog.json`
-- **收录日期**: 2026-06-26
+- **收录日期**: 2026-06-29
 - **验证状态**: ✅ 可通过 HTTP 访问
 - **备注**: Joost de Valk (Yoast 创始人) 发布了一个 Ard catalog，包含一个 MCP server 和一个 A2A agent，覆盖 SEO、WordPress、AI 和开放网络等主题。使用 did:web identity 和 JWS 签名的 trustManifest。
 - **相关博客**: https://joost.blog/okf-ard/

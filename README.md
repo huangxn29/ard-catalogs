@@ -63,10 +63,10 @@ ard-catalogs/
 
 | # | Publisher | Domain | Catalog URL | Resource Types | Collected |
 |---|-----------|--------|-------------|----------------|-----------|
-| 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-26 |
-| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-26 |
-| 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-26 |
-| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-26 |
+| 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-29 |
+| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-29 |
+| 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-29 |
+| 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-29 |
 
 > **Note**: ARD v0.9 draft was published on June 17, 2026. Currently only a few pioneering organizations and developers have published public ai-catalog.json files. This repository will be continuously updated as the ecosystem matures.
 
@@ -151,7 +151,7 @@ ard-catalogs/
 
 ## 🔍 Discovery Status
 
-Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json` (as of 2026-06-26):
+Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json` (as of 2026-06-29):
 
 | Organization | Domain | Status | Notes |
 |-------------|--------|--------|-------|
@@ -169,7 +169,7 @@ Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json`
 | ⬜ NVIDIA | nvidia.com | 403 | Not publicly accessible |
 | ⬜ GoDaddy | godaddy.com | 403 | Not publicly accessible |
 | ⬜ ServiceNow | servicenow.com | 403 | Not publicly accessible |
-| ⬜ Cisco | cisco.com | Not scanned | — |
+| ⬜ Cisco | cisco.com | 404 | Not published |
 | ⬜ Anthropic | anthropic.com | No response | Not a founding member |
 | ⬜ OpenAI | openai.com | No response | Not a founding member |
 
