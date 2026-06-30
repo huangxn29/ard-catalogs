@@ -4,11 +4,12 @@
   "homepage": "https://www.datarobot.com",
   "sourceUrl": "https://datarobot.com/.well-known/ai-catalog.json",
   "dateCollected": "2026-06-29",
-  "verificationStatus": "verified",
-  "httpStatus": 200,
+  "lastChecked": "2026-06-30",
+  "verificationStatus": "blocked",
+  "httpStatus": 403,
   "entryCount": 10,
   "resourceTypes": ["application/ai-skill"],
-  "notes": "DataRobot published 10 Agent Skills covering the full MLOps lifecycle: model training, deployment, prediction, feature engineering, monitoring, explainability, data preparation, CI/CD, external agent monitoring, and agent assist.",
+  "notes": "DataRobot published 10 Agent Skills covering the full MLOps lifecycle: model training, deployment, prediction, feature engineering, monitoring, explainability, data preparation, CI/CD, external agent monitoring, and agent assist. As of 2026-06-30 the catalog returns 403 Forbidden (Varnish cache block). The last known good snapshot is preserved locally.",
   "references": [
     "https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/",
     "https://github.com/datarobot-oss/datarobot-agent-skills"

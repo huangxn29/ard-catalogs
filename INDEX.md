@@ -1,7 +1,7 @@
 # 📋 ARD Catalog 全局索引 / Global Index
 
 > 本索引列出当前仓库收录的所有公开 `ai-catalog.json` 文件。
-> Last updated: 2026-06-29
+> Last updated: 2026-06-30
 
 ---
 
@@ -10,7 +10,7 @@
 | # | 发布者 | 收录路径 | 条目数 | 类型 | 源 URL |
 |---|--------|---------|--------|------|--------|
 | 1 | Hugging Face | `catalogs/huggingface/ai-catalog.json` | 1 (registry) | `ai-registry` | `https://huggingface.co/.well-known/ai-catalog.json` |
-| 2 | DataRobot | `catalogs/datarobot/ai-catalog.json` | 10 (skills) | `ai-skill` | `https://datarobot.com/.well-known/ai-catalog.json` |
+| 2 | DataRobot | `catalogs/datarobot/ai-catalog.json` | 10 (skills) | `ai-skill` | `https://datarobot.com/.well-known/ai-catalog.json` ⚠️ 403 |
 | 3 | Suganthan Mohanadasan | `catalogs/suganthan/ai-catalog.json` | 3 (mixed) | `a2a-agent`, `mcp-server`, `openapi` | `https://suganthan.com/.well-known/ai-catalog.json` |
 | 4 | Joost de Valk (joost.blog) | `catalogs/joost.blog/ai-catalog.json` | 2 (mixed) | `mcp-server`, `a2a-agent` | `https://joost.blog/.well-known/ai-catalog.json` |
 
@@ -70,7 +70,7 @@
 - **Catalog URL**: https://huggingface.co/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/huggingface/ai-catalog.json`
 - **收录日期**: 2026-06-29
-- **验证状态**: ✅ 可通过 HTTP 访问
+- **验证状态**: ⚠️ 当前扫描环境无法连接（超时）
 - **备注**: 指向动态搜索注册中心，实际资源需通过 Discover Registry 查询
 - **相关工具**: https://github.com/huggingface/hf-discover
 
@@ -81,7 +81,7 @@
 - **Catalog URL**: https://datarobot.com/.well-known/ai-catalog.json
 - **收录文件**: `catalogs/datarobot/ai-catalog.json`
 - **收录日期**: 2026-06-29
-- **验证状态**: ✅ 可通过 HTTP 访问
+- **验证状态**: ⚠️ 返回 403，当前扫描环境无法访问
 - **备注**: 10 个 Agent Skills，覆盖 MLOps 全生命周期
 - **相关博客**: https://www.datarobot.com/blog/datarobot-agent-skills-are-now-discoverable-through-agentic-resource-discovery/
 
@@ -145,4 +145,4 @@ Follow [@huangxn29](https://x.com/huangxn29) on X/Twitter for the latest updates
 | A2A Agent 条目 | 2 |
 | MCP Server 条目 | 2 |
 | OpenAPI 条目 | 1 |
-| 已验证可访问 | 4/4 (100%) |
+| 已验证可访问 | 2/4 (50%) — DataRobot (403)、HuggingFace (超时) |

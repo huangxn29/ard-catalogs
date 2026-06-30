@@ -4,11 +4,12 @@
   "homepage": "https://huggingface.co",
   "sourceUrl": "https://huggingface.co/.well-known/ai-catalog.json",
   "dateCollected": "2026-06-29",
-  "verificationStatus": "verified",
-  "httpStatus": 200,
+  "lastChecked": "2026-06-30",
+  "verificationStatus": "unreachable",
+  "httpStatus": 0,
   "entryCount": 1,
   "resourceTypes": ["application/ai-registry+json"],
-  "notes": "Hugging Face's ARD entry points to their Discover Registry. Actual resources (Skills, MCP-enabled Spaces) are indexed dynamically and queried via the registry endpoint.",
+  "notes": "Hugging Face's ARD entry points to their Discover Registry. Actual resources (Skills, MCP-enabled Spaces) are indexed dynamically and queried via the registry endpoint. As of 2026-06-30 the domain is unreachable from the scan environment (timeout). The last known good snapshot is preserved locally.",
   "references": [
     "https://github.com/huggingface/hf-discover",
     "https://huggingface.co/blog/agentic-resource-discovery-launch"

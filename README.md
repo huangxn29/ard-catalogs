@@ -64,7 +64,7 @@ ard-catalogs/
 | # | Publisher | Domain | Catalog URL | Resource Types | Collected |
 |---|-----------|--------|-------------|----------------|-----------|
 | 1 | **Hugging Face** | huggingface.co | [🔗](https://huggingface.co/.well-known/ai-catalog.json) | ai-registry | 2026-06-29 |
-| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) | ai-skill | 2026-06-29 |
+| 2 | **DataRobot** | datarobot.com | [🔗](https://datarobot.com/.well-known/ai-catalog.json) ⚠️ 403 | ai-skill | 2026-06-29 |
 | 3 | **Suganthan Mohanadasan** | suganthan.com | [🔗](https://suganthan.com/.well-known/ai-catalog.json) | a2a-agent, mcp-server, openapi | 2026-06-29 |
 | 4 | **Joost de Valk** | joost.blog | [🔗](https://joost.blog/.well-known/ai-catalog.json) | mcp-server, a2a-agent | 2026-06-29 |
 
@@ -155,8 +155,8 @@ Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json`
 
 | Organization | Domain | Status | Notes |
 |-------------|--------|--------|-------|
-| ✅ Hugging Face | huggingface.co | **Published** | Points to Discover Registry |
-| ✅ DataRobot | datarobot.com | **Published** | 10 Agent Skills |
+| ⚠️ Hugging Face | huggingface.co | **Published** | 超时，当前扫描环境无法连接 |
+| ⚠️ DataRobot | datarobot.com | **Published** | 返回 403 (Varnish 防火墙拦截) |
 | ✅ Suganthan | suganthan.com | **Published** | Individual developer, 3 entries |
 | ✅ Joost de Valk | joost.blog | **Published** | Individual developer, 2 entries (MCP + A2A) |
 | ⬜ Google | google.com | 404 | Not published |
@@ -173,7 +173,7 @@ Accessibility scan of ARD founding organizations' `/.well-known/ai-catalog.json`
 | ⬜ Anthropic | anthropic.com | No response | Not a founding member |
 | ⬜ OpenAI | openai.com | No response | Not a founding member |
 
-> As of now, **only Hugging Face, DataRobot, Suganthan, and Joost de Valk** have published public `ai-catalog.json` files. The ARD ecosystem is still in its early stages.
+> As of now, **only Hugging Face, DataRobot, Suganthan, and Joost de Valk** have published public `ai-catalog.json` files. However, as of 2026-06-30, Hugging Face is unreachable from the scan environment and DataRobot returns a 403. The ARD ecosystem is still in its early stages.
 
 ---
 
