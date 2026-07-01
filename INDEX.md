@@ -1,7 +1,7 @@
 # 📋 ARD Catalog 全局索引 / Global Index
 
 > 本索引列出当前仓库收录的所有公开 `ai-catalog.json` 文件。
-> Last updated: 2026-06-29
+> Last updated: 2026-07-01
 
 ---
 
